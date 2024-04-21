@@ -7,8 +7,6 @@ from models.place import Place
 from models.base_model import BaseModel, Base
 from sqlalchemy import Column, Integer, String
 
-
-
 class City(BaseModel, Base):
     """This is class for City
     Attributes:
